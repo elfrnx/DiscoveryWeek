@@ -1,5 +1,5 @@
 import streamlit as st
-<<<<<<< HEAD
+
 
 st.title("Streamlit Cheat Sheet")
 st.write("This is my first Streamlit app.")
@@ -25,7 +25,7 @@ st.header("Camera")
 # Use the camera widget to take a picture
 st.camera_input("Take a picture")
 
-=======
+
 import cv2
 from keras.models import load_model
 from PIL import Image, ImageOps
@@ -141,4 +141,4 @@ def main():
 
 if __name__ == "__main__":
     main()
->>>>>>> 5a03c81 (last_one)
+

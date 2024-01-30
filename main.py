@@ -2,26 +2,22 @@ from keras.models import load_model  # TensorFlow is required for Keras to work
 from PIL import Image, ImageOps  # Install pillow instead of PIL
 import numpy as np
 
-<<<<<<< HEAD
-=======
 
-
->>>>>>> 5a03c81 (last_one)
 # Disable scientific notation for clarity
 np.set_printoptions(suppress=True)
 
 # Load the model
-<<<<<<< HEAD
+
 model = load_model("C:\Users\elfrn\Desktop\bunnies", compile=False)
 
 # Load the labels
 class_names = open("labels.txt", "r").readlines()
-=======
+
 model = load_model("./models/saved_model/saved_model.pb", compile=False)
 
 # Load the labels
 class_names = open("./models/labels.txt", "r").readlines()
->>>>>>> 5a03c81 (last_one)
+
 
 # Create the array of the right shape to feed into the keras model
 # The 'length' or number of images you can put into the array is
