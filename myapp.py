@@ -1,5 +1,5 @@
 import streamlit as st
-import cv2
+import cv2 as cv2
 from keras.models import load_model
 from PIL import Image, ImageOps
 import numpy as np
